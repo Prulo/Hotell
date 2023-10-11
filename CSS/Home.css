@@ -181,30 +181,161 @@ main {
 /* room html */
 
 .header__picture--room {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url(/photos/1920x1275_borehb_rum_sup_9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  aspect-ratio: 12/4;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  font-family: "Fira Sans", sans-serif;
+}
+
+.figure__h1 {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.main__h2--roomtext {
+margin-top: 2rem;
+color: rgba(0, 0, 0, 0.849);
+}
+
+.main__div--room {
+  display: flex;
+}
+
+.section__fig--roomone {
+  background-image: url(/photos/01-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40%;
+}
+
+.section__fig--roomtwo {
+  background-image: url(/photos/02-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40%;
+}
+
+.section__fig--roomthree {
+  background-image: url(/photos/03-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40%;
+}
+
+.section__fig--roomfour {
+  background-image: url(/photos/05-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40%;
+}
+
+.section__fig--roomfive {
+  background-image: url(/photos/06-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40%;
+}
+.div__section--rooms {
+  display: flex;
+  width: 100%;
+  background-color: antiquewhite;
+  margin-top: 2rem;
+  height: auto;
+}
+
+.section__h2--text {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.801);
+}
+
+.section__articel--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.article__p--text {
+margin-top: 1rem;
+margin-left: 1rem;
+color: rgba(0, 0, 0, 0.863);
+
+}
+
+.article__p--pris {
+ margin-left: 1rem;
+ margin-bottom: 0.5rem;
+ font-size: 2rem;
+ color: rgba(0, 0, 0, 0.863);
+ 
+}
+
+.section__ul--room {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+font-size: 0.9rem;
+margin-top: 1rem;
+color: rgba(0, 0, 0, 0.678);
+}
+
+.section__ul--item {
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.section__btn--boka {
+  padding: 0.7rem;
+  background: #fdd041;
+  color: #000;
+  border: none;
+  font-size: 1rem;
+}
+
+@media only screen and (max-device-width: 1080px) {
+  .main__div {
     flex-direction: column;
-    background-image: url(/photos/1920x1275_borehb_rum_sup_9.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    aspect-ratio: 12/4;
-    padding-bottom: 3rem;
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
-    font-family: "Fira Sans", sans-serif;
-  }
-  
-  .figure__h1 {
-    margin-bottom: 1rem;
-    color: white;
+    align-content: center;
   }
 
-@media only screen and (max-device-width: 426px) {
-  .header__picture {
-    font-size: 0.7rem;
-    padding-top: 3rem;
+  .artikel__h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .div__section--rooms  {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section__fig--img {
+    height: 20rem;
+    width: 100%;
+  }
+
+  .section__articel--text {
+    width: 100%;
+  }
+
+  
+}
+
+@media only screen and (max-device-width: 650px) {
+  .main__div {
+    flex-direction: row;
+    align-content: center;
   }
 
   .articel__checkin {
@@ -213,6 +344,17 @@ main {
 
   .articel__treat {
     height: 20rem;
+  }
+
+  .figure__h1 {
+    font-size: 1.65rem;
+  }
+}
+
+@media only screen and (max-device-width: 426px) {
+  .header__picture {
+    font-size: 0.7rem;
+    padding-top: 3rem;
   }
 
   .header__nav {
@@ -237,5 +379,19 @@ main {
 
   .fotter__p--text {
     margin-left: 1rem;
+  }
+
+  .figure__h1 {
+    font-size: 1.3rem;
+  }
+
+  .section__fig--img {
+    height: 15rem;
+    width: 100%;
+  }
+  
+  .section__ul--room {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
