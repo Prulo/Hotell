@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    background-image: url(../photos/1800x825_startsida_host_tjej.jpg);
+    background-image: url(photos/1800x825_startsida_host_tjej.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -119,19 +119,19 @@
   }
   
   .articel__family {
-    background-image: url(../photos/1920x1275-hostlov-start.jpg);
+    background-image: url(photos/1920x1275-hostlov-start.jpg);
     background-size: 100% 100%;
     height: 20rem;
   }
   
   .articel__bedroom {
-    background-image: url(../photos/1920x1920-host-startsida-2.jpg);
+    background-image: url(photos/1920x1920-host-startsida-2.jpg);
     background-size: 100% 100%;
     height: 20rem;
   }
   
   .articel__coffiebed {
-    background-image: url(../photos/1920x1275-elite-hotels-det-ar-du-vard-sang-par.jpg);
+    background-image: url(photos/1920x1275-elite-hotels-det-ar-du-vard-sang-par.jpg);
     background-size: 100% 100%;
     height: 20rem;
   }
@@ -142,13 +142,13 @@
   }
   
   .articel__treat {
-    background-image: url(../photos/1920x1275-host-pa-balkong-staycation.jpg);
+    background-image: url(photos/1920x1275-host-pa-balkong-staycation.jpg);
     background-size: 100% 100%;
     height: 30rem;
   }
   
   .articel__checkin {
-    background-image: url(../photos/1920x1275-host-pa-checka-in.png);
+    background-image: url(photos/1920x1275-host-pa-checka-in.png);
     background-size: 100% 100%;
     height: 30rem;
   }
@@ -185,7 +185,7 @@
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    background-image: url(../photos/1920x1275_borehb_rum_sup_9.jpg);
+    background-image: url(photos/1920x1275_borehb_rum_sup_9.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -245,35 +245,35 @@
   }
   
   .section__fig--roomone {
-    background-image: url(../photos/01-night.jpg);
+    background-image: url(photos/01-night.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 40%;
   }
   
   .section__fig--roomtwo {
-    background-image: url(../photos/02-night.jpg);
+    background-image: url(photos/02-night.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 40%;
   }
   
   .section__fig--roomthree {
-    background-image: url(../photos/03-night.jpg);
+    background-image: url(photos/03-night.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 40%;
   }
   
   .section__fig--roomfour {
-    background-image: url(../photos/05-night.jpg);
+    background-image: url(photos/05-night.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 40%;
   }
   
   .section__fig--roomfive {
-    background-image: url(../photos/06-night.jpg);
+    background-image: url(photos/06-night.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 40%;
