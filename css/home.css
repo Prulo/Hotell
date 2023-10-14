@@ -6,6 +6,8 @@
     padding: 0;
   }
 
+  @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+
   body {
     width: 100vw;
     height: 100vh;
@@ -479,7 +481,7 @@
     }
   
     .section__picroom {
-      /* height: 20rem; */
+      height: 20rem;
       width: 100%;
     }
   
